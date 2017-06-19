@@ -1,0 +1,26 @@
+{
+  "name": "steve-chat",
+  "version": "1.0.0",
+  "description": "Simple TCP chat application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint .",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0smium/lab-06-tcp-chat.git"
+  },
+  "author": "Steve W",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0smium/lab-06-tcp-chat/issues"
+  },
+  "homepage": "https://github.com/0smium/lab-06-tcp-chat#readme",
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "expect": "^1.20.2",
+    "mocha": "^3.4.2"
+  }
+}
